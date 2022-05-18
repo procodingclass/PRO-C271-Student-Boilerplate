@@ -49,7 +49,7 @@ void loop() {
     matrix.clear();
     move_sprite();
     update_snake();
-    draw_sprite();
+    draw_sprites();
   }
 
 
@@ -97,7 +97,7 @@ void move_sprite() {
   }
 }
 
-void draw_sprite() {
+void draw_sprites() {
 
   for (int i = 0; i <= snake_length; i++) {
     matrix.setPoint(snake_y[i], snake_x[i], true);
