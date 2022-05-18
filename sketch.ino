@@ -16,7 +16,7 @@ int flag = 0;
 int snake_x[64];
 int snake_y[64];
 
-int snake_length = 0;
+int snake_length = 2;
 
 
 String direction = "", prev_direction = "";
